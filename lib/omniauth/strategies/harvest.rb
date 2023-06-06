@@ -4,7 +4,7 @@ module OmniAuth
   module Strategies
     class Harvest < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://api.harvestapp.com',
+        :site => 'https://id.harvestapp.com',
         :authorize_url => '/oauth2/authorize',
         :token_url => '/oauth2/token'
       }
