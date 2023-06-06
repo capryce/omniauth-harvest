@@ -6,7 +6,7 @@ module OmniAuth
       option :client_options, {
         :site => 'https://id.getharvest.com',
         :authorize_url => '/oauth2/authorize',
-        :token_url => '/oauth2/token'
+        :token_url => '/api/v2/oauth2/token'
       }
       
       def authorize_params
